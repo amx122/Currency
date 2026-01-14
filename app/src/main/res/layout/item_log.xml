@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="12dp"
+    android:background="@drawable/bg_card"
+    android:backgroundTint="@color/card_background"
+    android:layout_marginBottom="8dp">
+
+    <TextView
+        android:id="@+id/tvLogDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="12.01.2024 14:30"
+        android:textSize="12sp"
+        android:textColor="@color/accent_blue"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvLogMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Connection error"
+        android:textColor="@color/text_primary"
+        android:textSize="14sp"
+        android:layout_marginTop="4dp"/>
+
+</LinearLayout>

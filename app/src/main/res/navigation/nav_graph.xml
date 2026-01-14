@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/ratesFragment">
+
+    <fragment
+        android:id="@+id/ratesFragment"
+        android:name="com.example.kursova_mobile.ui.RatesFragment"
+        android:label="Курси"
+        tools:layout="@layout/fragment_rates">
+        <action
+            android:id="@+id/action_rates_to_details"
+            app:destination="@id/detailsFragment"
+            app:enterAnim="@android:anim/fade_in"
+            app:exitAnim="@android:anim/fade_out"
+            app:popEnterAnim="@android:anim/fade_in"
+            app:popExitAnim="@android:anim/fade_out"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/converterFragment"
+        android:name="com.example.kursova_mobile.ui.ConverterFragment"
+        android:label="Конвертер"
+        tools:layout="@layout/fragment_converter" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.example.kursova_mobile.ui.SettingsFragment"
+        android:label="Налаштування"
+        tools:layout="@layout/fragment_settings" />
+
+    <fragment
+        android:id="@+id/detailsFragment"
+        android:name="com.example.kursova_mobile.ui.DetailsFragment"
+        android:label="Деталі">
+        <argument
+            android:name="currencyCode"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/logsFragment"
+        android:name="com.example.kursova_mobile.ui.LogsFragment"
+        android:label="Logs"
+        tools:layout="@layout/fragment_logs" />
+
+</navigation>

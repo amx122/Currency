@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">Курсова</string>
+
+    <string name="menu_rates">Курси</string>
+    <string name="menu_converter">Конвертер</string>
+    <string name="menu_settings">Налаштування</string>
+
+    <string name="title_rates">Курси Валют</string>
+    <string name="search_hint">Пошук (USD, EUR...)</string>
+    <string name="nbu_label">Курс НБУ</string>
+
+    <string name="title_converter">Обмін валют</string>
+    <string name="label_from">Віддаю</string>
+    <string name="label_to">Отримую</string>
+    <string name="btn_convert">Розрахувати</string>
+    <string name="history_empty">Історія порожня</string>
+    <string name="last_operations">Останні операції</string>
+
+    <string name="title_settings">Налаштування</string>
+    <string name="section_general">ЗАГАЛЬНІ</string>
+    <string name="label_base_currency">Базова валюта</string>
+    <string name="label_language">Мова</string>
+    <string name="label_theme">Темна тема</string>
+    <string name="section_about">ПРО ДОДАТОК</string>
+    <string name="label_version">Версія</string>
+    <string name="label_precision">Точність чисел</string>
+    <string name="precision_2">2 знаки (0.00)</string>
+    <string name="precision_3">3 знаки (0.000)</string>
+    <string name="precision_4">4 знаки (0.0000)</string>
+    <string name="details_chart_title">Динаміка за 7 днів</string>
+    <string name="label_current">Поточний курс</string>
+    <string name="label_min">Мінімум</string>
+    <string name="label_max">Максимум</string>
+</resources>

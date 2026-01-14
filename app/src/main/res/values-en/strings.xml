@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Exchange App</string>
+
+    <string name="menu_rates">Rates</string>
+    <string name="menu_converter">Converter</string>
+    <string name="menu_settings">Settings</string>
+
+    <string name="title_rates">Exchange Rates</string>
+    <string name="search_hint">Search (USD, EUR...)</string>
+    <string name="nbu_label">NBU Rate</string>
+
+    <string name="title_converter">Currency Converter</string>
+    <string name="label_from">I give</string>
+    <string name="label_to">I get</string>
+    <string name="btn_convert">Calculate</string>
+    <string name="history_empty">History is empty</string>
+    <string name="last_operations">Recent Operations</string>
+
+    <string name="title_settings">Settings</string>
+    <string name="section_general">GENERAL</string>
+    <string name="label_base_currency">Base Currency</string>
+    <string name="label_language">Language</string>
+    <string name="label_theme">Dark Theme</string>
+    <string name="section_about">ABOUT</string>
+    <string name="label_version">Version</string>
+    <string name="label_precision">Number Precision</string>
+    <string name="precision_2">2 digits (0.00)</string>
+    <string name="precision_3">3 digits (0.000)</string>
+    <string name="precision_4">4 digits (0.0000)</string>
+    <string name="details_chart_title">7 Days Dynamics</string>
+    <string name="label_current">Current Rate</string>
+    <string name="label_min">Minimum</string>
+    <string name="label_max">Maximum</string>
+</resources>
